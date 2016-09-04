@@ -1,4 +1,4 @@
-# ${1:TerminalSP}
+# TerminalSP
 Web project to act as a custom browser startpage.
 ## Live Demo
 www.linkgoeshere.com

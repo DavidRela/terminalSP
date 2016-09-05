@@ -1,7 +1,11 @@
 @import "normalize.css";
 @import "elements";
 @import "config";
-body {background: @0 url('bg.jpg') no-repeat;}
+body {
+	background: #C9FFBF; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #C9FFBF , #FFAFBD); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #C9FFBF , #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 a {
 	color:@7;
 	text-decoration: none;
@@ -30,13 +34,14 @@ input {
 	transform: translate(-50%, -50%);
 }
 #terminal-wrapper {
-	background-color:@0;
+	background-color: #FFF;
 	font-family:@font;
 	font-size: 14px;
 	width: 585px;
 	height: 290px;
 	padding: 5px;
-	border: 1px solid @8;
+	border: 1px solid #DCDCDC;
+	border-radius: 2px;
 	color:@8;
 }
 #search {
@@ -72,7 +77,8 @@ input {
 	background: red;
 	background-repeat:no-repeat;
 	background-position: center center;
-	border: 1px solid @8;
+	border: 1px solid #DCDCDC;
+	border-radius: 2px;
 }
 .at::before {content: @user;color:@2;}
 .at {float: left;color:@15;}

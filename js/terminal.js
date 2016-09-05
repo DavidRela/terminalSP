@@ -19,16 +19,13 @@ function terminal(){
     switch (input) {
             
         case "all":
-            var win = window.open("http://gmail.com", '_blank');
-            var win2 = window.open("http://www.forocoches.com/foro/forumdisplay.php?f=2", '_blank');
-            var win3 = window.open("https://www.reddit.com/r/GlobalOffensive", '_blank');
-            var win4 = window.open("https://www.reddit.com/r/GlobalOffensiveTrade", '_blank');
-            var win5 = window.open("https://www.reddit.com/r/dota2", '_blank');
-            var win6 = window.open("https://steamcommunity.com/home/", '_blank');
-            var win7 = window.open("http://www.4chan.org/#", '_blank');
-            var win8 = window.open("https://twitter.com/", '_blank');
-            var win9 = window.open("https://www.twitch.tv/", '_blank');
-            break;
+                var linksArray =['https://www.google.com','http://www.facebook.com','http://www.stackoverflow.com'],i;
+                $('#open').click(function() {
+                    for( i=0; linksArray.length > i; i++){
+                        window.open(linksArray[i]);
+                    }
+                });
+                break;
             
         case "ree":
             document.search.action = "http://4chan.org/r9k";

@@ -3,7 +3,8 @@
 // the browsers default content display.
 // UI mods should not affect it.
 $(document).ready(function() {
-	$( "#container" ).draggable().position({
-		$('.container').css('transform', '0');
-	});
+	$("#container").draggable().position({});
+	$("#container").mousedown(function() {
+        	$("#container").css("transform", "0");        
+    })
 });

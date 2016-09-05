@@ -2,13 +2,9 @@
 @import "elements";
 @import "config";
 body {
-	background: #C9FFBF;
-	background: -moz-linear-gradient(top, #222222 0%, #FFAFBD100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C9FFBF ), color-stop(100%,#FFAFBD));
-	background: -webkit-linear-gradient(top, #C9FFBF 0%,#FFAFBD100%);
-	background: -o-linear-gradient(top, #C9FFBF 0%,#FFAFBD100%);
-	background: -ms-linear-gradient(top, #C9FFBF 0%,#FFAFBD100%);
-	background: linear-gradient(to bottom, #C9FFBF 0%,#FFAFBD100%);
+	background: #C9FFBF; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #C9FFBF , #FFAFBD); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #C9FFBF , #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 a {
 	color:@7;

@@ -4,6 +4,6 @@
 // UI mods should not affect it.
 $(document).ready(function() {
 	$( "#container" ).draggable().position({
-	
+		$('.container').css('transform', '0');
 	});
 });

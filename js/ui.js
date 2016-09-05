@@ -12,5 +12,5 @@ var rnd = imgs[Math.floor(Math.random() * imgs.length)];
 
 //Function
 $( document ).ready(function() {
-    $( "#rndimg" ).css( "background-image" , rnd );
+    $( "#rndimg" ).css( "background" , rnd );
 });

@@ -5,6 +5,7 @@
 $(document).ready(function() {
 	$("#container").draggable().position({});
 	$("#container").mousedown(function() {
-        	$("#container").css("transform", "");        
+        	//$("#container").css("transform", "");
+        	alert("hol");
     })
 });

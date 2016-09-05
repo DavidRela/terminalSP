@@ -12,5 +12,5 @@ var rnd = imgs[Math.floor(Math.random() * imgs.length)];
 
 //Function
 $( document ).ready(function() {
-    alert("ff")
+	$('#rngpic').css('backgroundImage', rnd );
 });

@@ -26,13 +26,25 @@ function terminal(){
                     }
                 });
                 break;
+                
+        case "buff":
+            document.search.action = "http://dotabuff.com";
+            break;
+        
+        case "p":
+            document.search.action = "http://4chan.org/p";
+            break;
             
         case "ree":
             document.search.action = "http://4chan.org/r9k";
             break;
             
-        case "quit":
-            //Pending
+        case "vg":
+            document.search.action = "http://4chan.org/vg";
+            break;
+        
+        case "wg":
+            document.search.action = "http://4chan.org/wg";
             break;
             
         default:

@@ -30,6 +30,14 @@ function terminal(){
         case "buff":
             document.search.action = "http://dotabuff.com";
             break;
+            
+        case "fa":
+            document.search.action = "http://4chan.org/fa";
+            break;
+            
+        case "help":
+            alert("Commands:\nall: Opens main links.\nbuff: Opens www.dotabuff.com\nfa: Opens www.4chan.org/fa\nhelp: states all commands\np: Opens www.4chan.org/p\nree: Opens www.4chan.org/r9k\nvg: Opens www.4chan.org/vg\nwp: Opens www.4chan.org/wg");
+            break;
         
         case "p":
             document.search.action = "http://4chan.org/p";

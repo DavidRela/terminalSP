@@ -2,10 +2,10 @@
 Web project to act as a custom browser startpage.
 
 ## Live Demo
-www.linkgoeshere.com
+https://davidrela.github.io/terminalSP/
 
 ## Screenshots
-TODO: Write usage instructions
+![terminalSP Screenshot](/terminalSPfiles/Screenshot.jpg?raw=true "")
 
 ## Installation
 1. Download "terminalSPfiles" folder.
